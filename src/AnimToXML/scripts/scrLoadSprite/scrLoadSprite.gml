@@ -7,9 +7,15 @@ function importSprite() {
 	
 	if _file != "" {
 		var _sprite = sprite_add(_file, 1, false, false, 0, 0);
-		show_message("Sprite added: " + string(_fname));
 	}
 	
 	global.loadedSprite = _sprite;
 	global.fileName = _fname;
+	
+	with(oSheetViewer) {
+		gridWidth = 16;
+		gridHeight = sprite_get_height(_sprite) div cellHeight + 1;
+		ds_grid_resize(selectionGrid, gridWidth, gridHeight);
+		clearSelectionGrid();
+	}
 }

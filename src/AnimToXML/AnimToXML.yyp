@@ -2,11 +2,17 @@
   "resources": [
     {"id":{"name":"scrDecToHex","path":"scripts/scrDecToHex/scrDecToHex.yy",},"order":1,},
     {"id":{"name":"oControl","path":"objects/oControl/oControl.yy",},"order":2,},
+    {"id":{"name":"scrViewerControls","path":"scripts/scrViewerControls/scrViewerControls.yy",},"order":3,},
+    {"id":{"name":"fnt_default","path":"fonts/fnt_default/fnt_default.yy",},"order":0,},
     {"id":{"name":"oSheetViewer","path":"objects/oSheetViewer/oSheetViewer.yy",},"order":3,},
     {"id":{"name":"scrExportXML","path":"scripts/scrExportXML/scrExportXML.yy",},"order":2,},
+    {"id":{"name":"sprTestBackground","path":"sprites/sprTestBackground/sprTestBackground.yy",},"order":1,},
     {"id":{"name":"oSheetImporter","path":"objects/oSheetImporter/oSheetImporter.yy",},"order":1,},
+    {"id":{"name":"fnt_default_small","path":"fonts/fnt_default_small/fnt_default_small.yy",},"order":2,},
     {"id":{"name":"scrLoadSprite","path":"scripts/scrLoadSprite/scrLoadSprite.yy",},"order":0,},
     {"id":{"name":"sprPlaceholder","path":"sprites/sprPlaceholder/sprPlaceholder.yy",},"order":0,},
+    {"id":{"name":"oAnimPreview","path":"objects/oAnimPreview/oAnimPreview.yy",},"order":4,},
+    {"id":{"name":"fnt_default_bold","path":"fonts/fnt_default_bold/fnt_default_bold.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
